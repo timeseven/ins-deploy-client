@@ -30,8 +30,8 @@ const Login: React.FC = () => {
 
   const formik = useFormik({
     initialValues: {
-      email: "",
-      password: "",
+      email: "Guest@guest.com",
+      password: "123456",
     },
     validationSchema: schema,
     onSubmit: (values) => {
